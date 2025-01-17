@@ -8,6 +8,7 @@ import Transform from './Components/Transform'
 import About from './About'
 import Alert from './Components/Alert'
 import Form from './Components/Form';
+import Spread from './Components/Spread';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path='/' element={<Transform Showalert={Showalert} />}></Route>
           <Route path='/about' element={<About alert={alert}/>}></Route>
           <Route path='/form' element={<Form />}></Route>
+          <Route path='/spread' element={<Spread />}></Route>
         </Routes>
       </BrowserRouter>
 

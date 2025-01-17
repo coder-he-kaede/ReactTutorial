@@ -2,9 +2,14 @@ import React from 'react'
 
 function Search(props) {
   return (
-    <div>
+    <>
+     <div>
       <h1>{props.heading}</h1>
     </div>
+
+    <div></div>
+    </>
+   
   )
 }
 

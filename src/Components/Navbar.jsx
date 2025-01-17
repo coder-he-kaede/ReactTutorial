@@ -20,6 +20,9 @@ function Navbar(props) {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/form">Form</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/spread">Spread</Link>
+        </li>
       </ul>
     
     </div>
